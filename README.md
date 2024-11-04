@@ -12,7 +12,8 @@ I will be using the Bank Marketing dataset from the UCI Machine Learning Reposit
 
 ## Analysis
 
-`bank_nn.ipynb`: Contains all analysis for the project
+`main.ipynb`: Contains all analysis for the project
+`hyperparam_tuning.py`: Contains functions used for training neural network using multiprocessing to speed up computation
 
 ## License 
 
