@@ -12,7 +12,7 @@ from imblearn import over_sampling
 from multiprocessing import Pool
 
 
-# reading in the data here so we can run multiprocessing properly; explanation for cleaninig in main.ipynb 
+# reading in the data here so we can run multiprocessing properly; explanation for cleaning in main.ipynb 
 
 df = pd.read_csv("../data/bank-additional-full.csv", delimiter = ";")
 df = df[df.columns[~df.columns.isin(['emp.var.rate', 'cons.price.idx','cons.conf.idx', 'euribor3m', 'nr.employed'])]]
